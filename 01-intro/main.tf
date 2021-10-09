@@ -6,3 +6,5 @@ resource "aws_instance" "instance_test01" {
     Name = "test01"
   }
 }
+
+resource "null_resource" "example" {}
